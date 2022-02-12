@@ -1,0 +1,6 @@
+defaults:
+  - base_csv_file
+  - _self_
+
+_target_: ml_project.metrics_storage.CSVFile
+filepath: ${oc.env:HOME}/Documents/metrics.csv

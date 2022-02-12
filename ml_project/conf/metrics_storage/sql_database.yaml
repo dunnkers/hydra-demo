@@ -1,0 +1,6 @@
+defaults:
+  - base_sql_database
+  - _self_
+
+_target_: ml_project.metrics_storage.SQLDatabase
+con: sqlite:///${oc.env:HOME}/Documents/metrics.sqlite

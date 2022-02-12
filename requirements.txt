@@ -1,0 +1,6 @@
+hydra-core>=1.1
+sklearn>=1
+pandas>=1
+pytest
+SQLAlchemy>=1
+plotly>=5

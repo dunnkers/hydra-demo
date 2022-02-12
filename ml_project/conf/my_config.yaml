@@ -1,0 +1,14 @@
+defaults:
+  - base_config
+  - _self_
+  - metrics_storage: csv_file
+  - preset: entropy
+
+hyperparameters:
+  n_estimators: 50
+  criterion: gini
+  n_jobs: null
+  random_state: null
+cross_validation:
+  cv: 5
+  n_jobs: null
