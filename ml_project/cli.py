@@ -8,7 +8,7 @@ from .structured_config import MLProjectConfig
 
 @hydra.main(config_path="conf", config_name="my_config")
 def main(cfg: MLProjectConfig):
-    # print(OmegaConf.to_yaml(cfg))
+    print(OmegaConf.to_yaml(cfg))
     run_model(cfg)
 
 
